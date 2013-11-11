@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 # use Rubinius
-ruby "2.1.0", :engine => "rbx", :engine_version => "2.1.1"
+# ruby "2.1.0", :engine => "rbx", :engine_version => "2.1.1"
+ruby "2.1.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
@@ -12,9 +13,9 @@ gem 'rails-api'
 gem 'pg'
 
 # Add standard library stuff for rubinius
-gem 'rubysl'
-gem 'racc'
-gem 'psych'
+# gem 'rubysl'
+# gem 'racc'
+# gem 'psych'
 
 # Use puma web server
 gem 'puma'
