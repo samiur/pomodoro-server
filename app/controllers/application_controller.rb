@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
   include ActionController::StrongParameters
+  include ActionController::MimeResponds
 
   def authenticate_user_from_token!
     user_email = params[:user_email].presence
