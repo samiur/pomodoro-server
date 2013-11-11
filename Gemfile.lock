@@ -48,6 +48,7 @@ GEM
     mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.8.2)
+    newrelic_rpm (3.6.9.171)
     orm_adapter (0.4.0)
     pg (0.17.0)
     polyglot (0.3.3)
@@ -109,6 +110,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   devise
+  newrelic_rpm
   pg
   pry-rails
   puma

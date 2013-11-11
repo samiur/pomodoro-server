@@ -39,6 +39,8 @@ group :development do
   gem 'pry-rails'
 end
 
+gem 'newrelic_rpm'
+
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
