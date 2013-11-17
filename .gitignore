@@ -16,6 +16,7 @@
 /log/*
 /tmp/*
 /tmp
+/bin/*
 *.rbc
 *.sassc
 .sass-cache
